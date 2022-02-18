@@ -37,11 +37,11 @@ public class CCuenta {
         System.out.println("El saldo actual es " + cantidad );
         
         retirar(2300);
-        //System.out.println("Fallo al retirar");
+        //System.out.println("Fallo al retirar"); en esta nueva estructura carece de sentido
         System.out.println("Ingreso en cuenta");
 
         ingresar(695);
-        //System.out.print("Fallo al ingresar");
+        //System.out.print("Fallo al ingresar");  en esta nueva estructura carece de sentido
     }
     
     public String getNombre() {
